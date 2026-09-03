@@ -12,9 +12,13 @@
 }
 
 body {
-  background: var(--paper);
+  background: repeating-linear-gradient(115deg, #101820 0, #101820 42px, #004d98 42px, #004d98 84px, #a50044 84px, #a50044 94px);
   color: var(--ink);
   font-family: "Avenir Next", "Trebuchet MS", sans-serif;
+}
+
+.main-content {
+  background: var(--paper);
 }
 
 .navbar { background: var(--navy) !important; border-bottom: 3px solid var(--garnet) !important; }
