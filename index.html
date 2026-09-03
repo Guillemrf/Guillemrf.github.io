@@ -1,5 +1,63 @@
 ---
-layout: home
-title: Homer Simpson's Website
-subtitle: This is where I will tell the world about me
+layout: page
+title: Raphinha
+description: Raphael Dias Belloli, el 11 blaugrana
 ---
+
+<main class="raphinha-home">
+	<section class="raphinha-hero" aria-labelledby="hero-title">
+		<div class="hero-copy">
+			<p class="eyebrow">FC Barcelona · 11</p>
+			<h1 id="hero-title">Raphinha</h1>
+			<p class="hero-lede">Talent brasiler, caràcter blaugrana.</p>
+			<p class="hero-text">Una fanpage dedicada a Raphael Dias Belloli: velocitat, desequilibri i una esquerra que sempre busca la porteria.</p>
+			<a class="hero-link" href="{{ '/aboutme' | relative_url }}">Coneix el jugador <span aria-hidden="true">→</span></a>
+		</div>
+		<div class="hero-portrait">
+			<img src="{{ '/images/raphinha-portrait.jpg' | relative_url }}" alt="Raphinha amb la samarreta del Brasil">
+			<span class="hero-number" aria-hidden="true">11</span>
+		</div>
+	</section>
+
+	<section class="player-strip" aria-label="Dades de Raphinha">
+		<div><span>Nom complet</span><strong>Raphael Dias Belloli</strong></div>
+		<div><span>Posició</span><strong>Extrem</strong></div>
+		<div><span>Peu hàbil</span><strong>Esquerre</strong></div>
+		<div><span>Club</span><strong>FC Barcelona</strong></div>
+	</section>
+
+	<section class="moments-section" aria-labelledby="moments-title">
+		<div class="section-heading">
+			<p class="eyebrow">Arxiu visual</p>
+			<h2 id="moments-title">Moments que expliquen el 11</h2>
+			<p>Força, imaginació i una celebració que no passa desapercebuda.</p>
+		</div>
+		<div class="moment-grid">
+			<figure class="moment-card moment-card-large">
+				<img src="{{ '/images/raphinha-cosmic.jpg' | relative_url }}" alt="Raphinha en una escena artística envoltat de galàxies">
+				<figcaption><span>01</span><strong>Un altre planeta</strong></figcaption>
+			</figure>
+			<figure class="moment-card">
+				<img src="{{ '/images/raphinha-goal.jpg' | relative_url }}" alt="Raphinha celebrant un gol al terreny de joc">
+				<figcaption><span>02</span><strong>Instint golejador</strong></figcaption>
+			</figure>
+			<figure class="moment-card">
+				<img src="{{ '/images/raphinha-bicycle.jpg' | relative_url }}" alt="Raphinha executant una rematada acrobàtica">
+				<figcaption><span>03</span><strong>Impossible fins que passa</strong></figcaption>
+			</figure>
+			<figure class="moment-card">
+				<img src="{{ '/images/raphinha-jersey.jpg' | relative_url }}" alt="Raphinha mostrant una samarreta del Barça">
+				<figcaption><span>04</span><strong>Identitat blaugrana</strong></figcaption>
+			</figure>
+			<figure class="moment-card">
+				<img src="{{ '/images/raphinha-trophy.jpg' | relative_url }}" alt="Raphinha sostenint un trofeu amb la samarreta del Barça">
+				<figcaption><span>05</span><strong>La recompensa</strong></figcaption>
+			</figure>
+		</div>
+	</section>
+
+	<section class="quote-band">
+		<p>“Jugar al Barça és entendre que cada partit demana valentia.”</p>
+		<span>— Raphinha, sempre atacant</span>
+	</section>
+</main>
