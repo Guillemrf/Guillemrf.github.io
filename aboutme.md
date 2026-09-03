@@ -1,12 +1,22 @@
 ---
 layout: page
 title: Sobre Raphinha
-subtitle: El perfil del 11 blaugrana
+subtitle: Raphael Dias Belloli · El 11 blaugrana
 ---
 
-## Raphael Dias Belloli
+![Raphinha amb la samarreta del Barça i un trofeu]({{ '/images/raphinha-trophy.jpg' | relative_url }}){: .img-fluid .mx-auto .d-block }
 
-Nascut a Porto Alegre el 14 de desembre de 1996, Raphinha és un extrem brasiler reconegut per la seva acceleració, el regat i una personalitat competitiva que es nota en cada partit.
+## El jugador
+
+Raphinha és Raphael Dias Belloli, extrem brasiler del **FC Barcelona** i un dels jugadors més elèctrics del futbol actual. Nascut a Porto Alegre el 14 de desembre de 1996, ha convertit la velocitat, el regat i la intensitat en la seva signatura.
+
+| Dada | Informació |
+| :--- | :--- |
+| Nom complet | Raphael Dias Belloli |
+| Nacionalitat | Brasil |
+| Posició | Extrem |
+| Peu hàbil | Esquerre |
+| Equip | FC Barcelona |
 
 ### El seu joc
 
